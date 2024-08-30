@@ -1,0 +1,261 @@
+[08-Jul-2024 03:41:25 UTC] PHP Warning:  file_get_contents(/mod/sub/bibisi.json): Failed to open stream: No such file or directory in /home/soyjvfyq/politica.soyja.cc/post.php on line 3
+[08-Jul-2024 04:15:20 UTC] PHP Warning:  file_get_contents(/mod/sub/bibisi.json): Failed to open stream: No such file or directory in /home/soyjvfyq/politica.soyja.cc/post.php on line 12
+[08-Jul-2024 04:15:20 UTC] PHP Warning:  file_put_contents(/nod/sub/bibisi.json): Failed to open stream: No such file or directory in /home/soyjvfyq/politica.soyja.cc/post.php on line 22
+[08-Jul-2024 04:15:51 UTC] PHP Warning:  file_get_contents(/mod/sub/bibisi.json): Failed to open stream: No such file or directory in /home/soyjvfyq/politica.soyja.cc/post.php on line 12
+[08-Jul-2024 04:15:51 UTC] PHP Warning:  file_put_contents(/nod/sub/bibisi.json): Failed to open stream: No such file or directory in /home/soyjvfyq/politica.soyja.cc/post.php on line 22
+[08-Jul-2024 14:34:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function str_contains_all() in /home/soyjvfyq/politica.soyja.cc/post.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 26
+[08-Jul-2024 14:36:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function str_contains_all() in /home/soyjvfyq/politica.soyja.cc/post.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 26
+[08-Jul-2024 14:37:58 UTC] PHP Fatal error:  Uncaught TypeError: str_contains_all(): Argument #2 ($needles) must be of type array, string given, called in /home/soyjvfyq/politica.soyja.cc/post.php on line 37 and defined in /home/soyjvfyq/politica.soyja.cc/post.php:3
+Stack trace:
+#0 /home/soyjvfyq/politica.soyja.cc/post.php(37): str_contains_all()
+#1 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 3
+[08-Jul-2024 14:39:29 UTC] PHP Fatal error:  Uncaught TypeError: str_contains(): Argument #2 ($needle) must be of type string, array given in /home/soyjvfyq/politica.soyja.cc/post.php:37
+Stack trace:
+#0 /home/soyjvfyq/politica.soyja.cc/post.php(37): str_contains()
+#1 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 37
+[08-Jul-2024 15:04:57 UTC] PHP Warning:  Attempt to read property "response" on array in /home/soyjvfyq/politica.soyja.cc/post.php on line 4
+[08-Jul-2024 15:04:57 UTC] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/soyjvfyq/politica.soyja.cc/post.php:4
+Stack trace:
+#0 /home/soyjvfyq/politica.soyja.cc/post.php(4): array_column()
+#1 /home/soyjvfyq/politica.soyja.cc/post.php(38): ip_search()
+#2 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 4
+[08-Jul-2024 15:06:05 UTC] PHP Warning:  Attempt to read property "response" on string in /home/soyjvfyq/politica.soyja.cc/post.php on line 4
+[08-Jul-2024 15:06:05 UTC] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/soyjvfyq/politica.soyja.cc/post.php:4
+Stack trace:
+#0 /home/soyjvfyq/politica.soyja.cc/post.php(4): array_column()
+#1 /home/soyjvfyq/politica.soyja.cc/post.php(38): ip_search()
+#2 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 4
+[08-Jul-2024 15:06:29 UTC] PHP Fatal error:  Uncaught TypeError: ip_search(): Argument #1 ($x) must be of type array, string given, called in /home/soyjvfyq/politica.soyja.cc/post.php on line 38 and defined in /home/soyjvfyq/politica.soyja.cc/post.php:3
+Stack trace:
+#0 /home/soyjvfyq/politica.soyja.cc/post.php(38): ip_search()
+#1 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 3
+[08-Jul-2024 15:06:56 UTC] PHP Warning:  Attempt to read property "response" on array in /home/soyjvfyq/politica.soyja.cc/post.php on line 4
+[08-Jul-2024 15:06:56 UTC] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/soyjvfyq/politica.soyja.cc/post.php:4
+Stack trace:
+#0 /home/soyjvfyq/politica.soyja.cc/post.php(4): array_column()
+#1 /home/soyjvfyq/politica.soyja.cc/post.php(38): ip_search()
+#2 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 4
+[08-Jul-2024 15:07:50 UTC] PHP Warning:  Attempt to read property "response" on array in /home/soyjvfyq/politica.soyja.cc/post.php on line 4
+[08-Jul-2024 15:07:50 UTC] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/soyjvfyq/politica.soyja.cc/post.php:4
+Stack trace:
+#0 /home/soyjvfyq/politica.soyja.cc/post.php(4): array_column()
+#1 /home/soyjvfyq/politica.soyja.cc/post.php(38): ip_search()
+#2 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 4
+[08-Jul-2024 15:08:29 UTC] PHP Warning:  Attempt to read property "response" on array in /home/soyjvfyq/politica.soyja.cc/post.php on line 4
+[08-Jul-2024 15:08:29 UTC] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/soyjvfyq/politica.soyja.cc/post.php:4
+Stack trace:
+#0 /home/soyjvfyq/politica.soyja.cc/post.php(4): array_column()
+#1 /home/soyjvfyq/politica.soyja.cc/post.php(38): ip_search()
+#2 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 4
+[08-Jul-2024 15:09:21 UTC] PHP Warning:  Attempt to read property "ip" on array in /home/soyjvfyq/politica.soyja.cc/post.php on line 4
+[08-Jul-2024 15:09:21 UTC] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in /home/soyjvfyq/politica.soyja.cc/post.php:4
+Stack trace:
+#0 /home/soyjvfyq/politica.soyja.cc/post.php(4): array_column()
+#1 /home/soyjvfyq/politica.soyja.cc/post.php(38): ip_search()
+#2 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 4
+[08-Jul-2024 15:10:00 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "i" in /home/soyjvfyq/politica.soyja.cc/post.php:9
+Stack trace:
+#0 /home/soyjvfyq/politica.soyja.cc/post.php(38): ip_search()
+#1 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 9
+[08-Jul-2024 15:21:45 UTC] PHP Fatal error:  Uncaught ArgumentCountError: addslashes() expects exactly 1 argument, 3 given in /home/soyjvfyq/politica.soyja.cc/post.php:27
+Stack trace:
+#0 /home/soyjvfyq/politica.soyja.cc/post.php(27): addslashes()
+#1 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 27
+[08-Jul-2024 15:47:52 UTC] PHP Warning:  Undefined variable $poll in /home/soyjvfyq/politica.soyja.cc/post.php on line 62
+[08-Jul-2024 17:37:08 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 17:37:34 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 17:47:39 UTC] PHP Fatal error:  Uncaught TypeError: ip_search(): Argument #1 ($x) must be of type array, null given, called in /home/soyjvfyq/politica.soyja.cc/post.php on line 46 and defined in /home/soyjvfyq/politica.soyja.cc/post.php:3
+Stack trace:
+#0 /home/soyjvfyq/politica.soyja.cc/post.php(46): ip_search()
+#1 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 3
+[08-Jul-2024 17:47:48 UTC] PHP Fatal error:  Uncaught TypeError: ip_search(): Argument #1 ($x) must be of type array, null given, called in /home/soyjvfyq/politica.soyja.cc/post.php on line 46 and defined in /home/soyjvfyq/politica.soyja.cc/post.php:3
+Stack trace:
+#0 /home/soyjvfyq/politica.soyja.cc/post.php(46): ip_search()
+#1 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 3
+[08-Jul-2024 18:10:12 UTC] PHP Fatal error:  Uncaught TypeError: ip_search(): Argument #1 ($x) must be of type array, null given, called in /home/soyjvfyq/politica.soyja.cc/post.php on line 44 and defined in /home/soyjvfyq/politica.soyja.cc/post.php:3
+Stack trace:
+#0 /home/soyjvfyq/politica.soyja.cc/post.php(44): ip_search()
+#1 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 3
+[08-Jul-2024 18:51:18 UTC] PHP Parse error:  syntax error, unexpected token "," in /home/soyjvfyq/politica.soyja.cc/post.php on line 116
+[08-Jul-2024 18:51:21 UTC] PHP Parse error:  syntax error, unexpected token "," in /home/soyjvfyq/politica.soyja.cc/post.php on line 116
+[08-Jul-2024 18:51:23 UTC] PHP Parse error:  syntax error, unexpected token "," in /home/soyjvfyq/politica.soyja.cc/post.php on line 116
+[08-Jul-2024 18:54:51 UTC] PHP Parse error:  syntax error, unexpected token "," in /home/soyjvfyq/politica.soyja.cc/post.php on line 116
+[08-Jul-2024 19:10:31 UTC] PHP Fatal error:  Uncaught TypeError: ip_search(): Argument #1 ($x) must be of type array, null given, called in /home/soyjvfyq/politica.soyja.cc/post.php on line 39 and defined in /home/soyjvfyq/politica.soyja.cc/post.php:3
+Stack trace:
+#0 /home/soyjvfyq/politica.soyja.cc/post.php(39): ip_search()
+#1 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 3
+[08-Jul-2024 19:11:01 UTC] PHP Fatal error:  Uncaught TypeError: ip_search(): Argument #1 ($x) must be of type array, null given, called in /home/soyjvfyq/politica.soyja.cc/post.php on line 39 and defined in /home/soyjvfyq/politica.soyja.cc/post.php:3
+Stack trace:
+#0 /home/soyjvfyq/politica.soyja.cc/post.php(39): ip_search()
+#1 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 3
+[08-Jul-2024 19:11:29 UTC] PHP Fatal error:  Uncaught TypeError: ip_search(): Argument #1 ($x) must be of type array, null given, called in /home/soyjvfyq/politica.soyja.cc/post.php on line 39 and defined in /home/soyjvfyq/politica.soyja.cc/post.php:3
+Stack trace:
+#0 /home/soyjvfyq/politica.soyja.cc/post.php(39): ip_search()
+#1 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 3
+[08-Jul-2024 19:11:32 UTC] PHP Fatal error:  Uncaught TypeError: ip_search(): Argument #1 ($x) must be of type array, null given, called in /home/soyjvfyq/politica.soyja.cc/post.php on line 39 and defined in /home/soyjvfyq/politica.soyja.cc/post.php:3
+Stack trace:
+#0 /home/soyjvfyq/politica.soyja.cc/post.php(39): ip_search()
+#1 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 3
+[08-Jul-2024 19:11:39 UTC] PHP Fatal error:  Uncaught TypeError: ip_search(): Argument #1 ($x) must be of type array, null given, called in /home/soyjvfyq/politica.soyja.cc/post.php on line 39 and defined in /home/soyjvfyq/politica.soyja.cc/post.php:3
+Stack trace:
+#0 /home/soyjvfyq/politica.soyja.cc/post.php(39): ip_search()
+#1 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 3
+[08-Jul-2024 19:11:58 UTC] PHP Fatal error:  Uncaught TypeError: ip_search(): Argument #1 ($x) must be of type array, null given, called in /home/soyjvfyq/politica.soyja.cc/post.php on line 39 and defined in /home/soyjvfyq/politica.soyja.cc/post.php:3
+Stack trace:
+#0 /home/soyjvfyq/politica.soyja.cc/post.php(39): ip_search()
+#1 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 3
+[08-Jul-2024 20:07:00 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 20:13:06 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 20:45:34 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 21:35:17 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 21:36:03 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 21:36:29 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 21:36:43 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 21:37:05 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 21:42:40 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 21:44:09 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 21:47:29 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 21:48:42 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 21:49:17 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 21:52:51 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 21:56:11 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 21:56:32 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 21:56:42 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 21:58:06 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 21:58:13 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 21:58:53 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 21:59:26 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 21:59:50 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 22:00:38 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 22:01:41 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 22:02:04 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 22:04:06 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 22:04:28 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 22:05:10 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 22:06:06 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 22:07:36 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 22:08:25 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 22:08:26 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 22:08:33 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 22:08:38 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 22:17:02 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 22:18:28 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 22:23:47 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 22:31:46 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 22:32:19 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 22:41:23 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 22:49:03 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 23:18:20 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 23:20:44 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 23:49:52 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 23:52:08 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[08-Jul-2024 23:52:18 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 00:11:12 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 00:11:35 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 00:12:05 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 00:14:52 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 00:18:06 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 00:18:37 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 00:23:36 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 00:31:21 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 00:32:50 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 00:33:02 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 00:35:36 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 00:38:56 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 00:39:52 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 00:44:05 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 00:46:54 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 00:55:06 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 00:55:43 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 01:02:25 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 01:02:26 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 01:12:27 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 01:15:29 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 01:21:50 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 01:21:59 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 01:23:00 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 01:31:44 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 01:39:29 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 01:54:35 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 06:51:13 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 10:46:21 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 17:17:37 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 17:19:36 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 18:50:30 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Jul-2024 23:50:36 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[10-Jul-2024 04:56:08 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[10-Jul-2024 16:27:36 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[10-Jul-2024 16:27:36 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[11-Jul-2024 01:07:18 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[11-Jul-2024 05:18:27 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[11-Jul-2024 07:43:58 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[12-Jul-2024 06:16:44 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[12-Jul-2024 14:11:18 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[18-Jul-2024 18:32:02 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[19-Jul-2024 04:38:01 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[19-Jul-2024 17:00:49 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[20-Jul-2024 07:24:57 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[26-Jul-2024 23:45:36 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[28-Jul-2024 03:26:33 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[05-Aug-2024 06:24:20 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[07-Aug-2024 14:48:26 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[09-Aug-2024 14:07:12 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[13-Aug-2024 10:21:08 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[16-Aug-2024 06:26:05 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[16-Aug-2024 20:29:11 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[19-Aug-2024 12:09:44 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[22-Aug-2024 03:06:31 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[23-Aug-2024 19:37:18 UTC] PHP Fatal error:  Uncaught TypeError: ip_search(): Argument #1 ($x) must be of type array, null given, called in /home/soyjvfyq/politica.soyja.cc/post.php on line 39 and defined in /home/soyjvfyq/politica.soyja.cc/post.php:3
+Stack trace:
+#0 /home/soyjvfyq/politica.soyja.cc/post.php(39): ip_search()
+#1 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 3
+[23-Aug-2024 19:40:17 UTC] PHP Fatal error:  Uncaught TypeError: ip_search(): Argument #1 ($x) must be of type array, null given, called in /home/soyjvfyq/politica.soyja.cc/post.php on line 39 and defined in /home/soyjvfyq/politica.soyja.cc/post.php:3
+Stack trace:
+#0 /home/soyjvfyq/politica.soyja.cc/post.php(39): ip_search()
+#1 {main}
+  thrown in /home/soyjvfyq/politica.soyja.cc/post.php on line 3
+[24-Aug-2024 07:38:43 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[25-Aug-2024 18:09:11 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[25-Aug-2024 18:09:43 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[25-Aug-2024 23:02:44 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[26-Aug-2024 01:31:00 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[26-Aug-2024 03:42:46 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[26-Aug-2024 03:42:58 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[28-Aug-2024 17:56:57 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[28-Aug-2024 19:14:18 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[28-Aug-2024 19:59:07 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[28-Aug-2024 22:00:43 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[28-Aug-2024 23:21:11 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[29-Aug-2024 02:55:13 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[29-Aug-2024 21:17:01 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[30-Aug-2024 01:08:17 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[30-Aug-2024 01:42:42 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[30-Aug-2024 05:35:27 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26
+[30-Aug-2024 14:37:57 UTC] PHP Warning:  Undefined array key "faction" in /home/soyjvfyq/politica.soyja.cc/cap.php on line 26

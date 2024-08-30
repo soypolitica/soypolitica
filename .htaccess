@@ -1,0 +1,3 @@
+ErrorDocument 403 /mod/err/403.html
+ErrorDocument 404 /mod/err/404.html
+RewriteEngine on

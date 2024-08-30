@@ -1,0 +1,105 @@
+<html>
+	<head>
+	<link rel="stylesheet" href="style.css">
+	<link id = "styles" rel="stylesheet" href="style.css">
+	<title>Soypolitica</title>
+	<link rel="icon" type="image/x-icon" href="trump.png">
+	<meta charset="UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src = "css.js"></script>
+	</head>
+<body>
+    <select style = "position:absolute;right:1;" id="styletypes">
+  <option value="Light">Lightmode</option>
+  <option value="Dark">Darkmode</option>
+</select>
+	<div class="boardlist">
+		<p><a href="index.html">Home</a> | <a href="structure.html">Soysphere Parliament</a> | <a href="party.html">Soyparty Parliament</a> | <a href="bills.html">Bills</a> | <a href="policies.html">Polices</a> | <a href="speech.html">Speeches</a></p>
+	</div>
+	<hr>
+	<h1>Soyparty Structure</h1>
+<div class="ban" style = "height: 25%;
+    overflow-y: scroll;">
+	<h1>Pre-Elections</h1>
+<h3>Submit your soylitical parties and their beliefs and policies below.</h3>
+<h3>You will have <p id = "demo"></p> to submit your factions, <a href = "policies.html">Policies</a> and <a href = "bills.html">Bills</a>. Whoever wins will get a mystery prize.</h3>
+	</div>
+<hr>
+<b>Upload all of your parties here for others to view:</b> <br>
+<b><small>*Note: On this page, there is 1 post per IP, So be wise about what you post! (This is only on for this page)</small></b>
+<form method = "POST" action = "post.php">
+    <input type = "text" placeholder = "Faction name" name = "faction"> <br>
+    <textarea placeholder = "Comment" name = "body"></textarea> <br>
+    <input type = "text" style = "display:none" name = "board" value = "party">
+    <input type = "submit" value = "submit">
+</form>
+<div id = "posts"></div>
+<hr>
+<div class="footer">
+<p class="unimportant" style="margin-top:20px;text-align:center;">Viasynite Media Centre © 2024</p>
+<p class="unimportant" style="margin-top:20px;text-align:center;">Admin@Soyja.cc / Xoot © 2024</p>
+</div>
+</body>
+</html>
+
+
+<script>
+          $.post("/mod/sub/get.php",
+         
+          {
+              "file": "a"
+          },
+          
+  function(data, status){
+
+var i = JSON.parse(data);
+    console.log(i);
+
+for(let x = i.length - 1 ; x > 0; x -= 1) {
+    let post = document.createElement("div");
+post.className = "post reply";
+let h = document.createElement("label");
+h.className = "intro";
+h.innerText = i[x]?.faction.replaceAll("\\", "");
+h.style.color = "gray";
+post.appendChild(h);
+let p1 = document.createElement("p");
+p1.innerText = i[x]?.body.replaceAll("\\", "");
+post.appendChild(p1);
+document.getElementById("posts").appendChild(post);
+document.getElementById("posts").appendChild(document.createElement("br"));
+
+
+  }
+  });
+  
+  
+  // Set the date we're counting down to
+var countDownDate = new Date("Aug 30, 2024 0:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>

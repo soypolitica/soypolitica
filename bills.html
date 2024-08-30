@@ -1,0 +1,77 @@
+<html>
+	<head>
+	<link rel="stylesheet" href="style.css">
+	<link id = "styles" rel="stylesheet" href="style.css">
+	<title>Soypolitica</title>
+	<link rel="icon" type="image/x-icon" href="trump.png">
+	<meta charset="UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src = "css.js"></script>
+
+	</head>
+<body>
+    <select style = "position:absolute;right:1;" id="styletypes">
+  <option value="Light">Lightmode</option>
+  <option value="Dark">Darkmode</option>
+</select>
+	<div class="boardlist">
+		<p><a href="index.html">Home</a> | <a href="structure.html">Soysphere Parliament</a> | <a href="party.html">Soyparty Parliament</a> | <a href="bills.html">Bills</a> | <a href="policies.html">Polices</a> | <a href="speech.html">Speeches</a></p>
+	</div>
+	<hr>
+	<h1>Bills and Policies</h1>
+<div class="ban">
+	<h2>How do I submit a bill?</h2>
+		<p>You must mail the bill here. Give a full description of the bill as fully as possible. You must include what party and soysphere faciton your from. Your capcode will be included (EX: ## Uen39mc). You must attach a <a href = "https://strawpoll.com/create/">POLL</a> in the section below so soyteens can vote to pass the bill. Bills last for 24 hours. Once time has passed, the bill either passes or fails.</p>
+	</div>
+	
+<hr>
+<b>Upload all of your polls here for others to view:</b> <br>
+<b><small>*An automatic capcode will be attached to your faction name to determine the poster</small></b>
+<form method = "POST" action = "post.php">
+    <input type = "text" placeholder = "Faction name" name = "faction"> <br>
+        <input type = "text" placeholder = "Poll Link" name = "poll"> <br>
+    <textarea placeholder = "Comment" name = "body"></textarea> <br>
+    <input type = "text" style = "display:none" name = "board" value = "Bills">
+    <input type = "submit" value = "submit">
+</form>
+<hr>
+<div id = "policies"></div>
+</div>
+<hr>
+<div class="footer">
+<p class="unimportant" style="margin-top:20px;text-align:center;">Viasynite Media Centre © 2024</p>
+<p class="unimportant" style="margin-top:20px;text-align:center;">Admin@Soyja.cc / Xoot © 2024</p>
+</div>
+</body>
+</html>
+
+<script>
+    $.post("/mod/sub/get.php",
+{
+    
+  "file": "b"
+},
+  function(data, status){
+
+    let i = JSON.parse(data);
+console.log(i);
+for(let x = i.length-1; x > 0; x -= 1) {
+    if(i[x]?.poll.includes('https://strawpoll.com/')) {
+    let post = document.createElement("div");
+post.className = "post reply";
+let h = document.createElement("label");
+h.className = "intro";
+h.innerText = i[x]?.faction.replaceAll("\\", "");
+h.style.fontWeight = "bold";
+h.style.color = "gray";
+post.appendChild(h);
+let p1 = document.createElement("a");
+post.appendChild(document.createElement("br"))
+p1.href = i[x]?.poll.replaceAll("\\", "");
+p1.innerText = i[x]?.body.replaceAll("\\", "");
+post.appendChild(p1);
+document.getElementById("policies").appendChild(post);
+document.getElementById("policies").appendChild(document.createElement("br"));}
+}
+});
+</script>
